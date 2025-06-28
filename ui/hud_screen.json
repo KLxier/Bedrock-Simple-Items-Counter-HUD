@@ -1,0 +1,134 @@
+{
+    "root_panel": {
+        "modifications": [
+            {
+              "array_name": "controls",
+              "operation": "insert_back",
+              "value": [
+                {
+                "bwginfo_icons@hud.bwginfo_icons": {}
+                },
+                {
+                "bwginfo_amounts@hud.bwginfo_amounts": {}
+                }
+              ]
+            }
+        ]
+    },
+    "bwginfo_icons": {
+        "type": "stack_panel",
+        "size": ["20%", "20%"],
+        "anchor_from": "bottom_left",
+        "anchor_to": "bottom_left",
+        "offset": [5, -55],
+        "controls": [
+            {
+                "iron_icon@iron_icon": {}
+            },
+            {
+                "gold_icon@gold_icon": {}
+            },
+            {
+                "diamond_icon@diamond_icon": {}
+            },
+            {
+                "emerald_icon@emerald_icon": {}
+            },
+            {
+                "wool_icon@wool_icon": {}
+            },
+            {
+                "firecharge_icon@firecharge_icon": {}
+            }
+        ],
+        "layer": 1
+    },
+    "bwginfo_amounts": {
+        "type": "stack_panel",
+        "size": ["20%", "20%"],
+        "anchor_from": "bottom_left",
+        "anchor_to": "bottom_left",
+        "offset": [30, -52.75],
+        "controls": [
+            {
+                "iron_amounts@iron_amounts": {}
+            },
+            {
+                "gold_amounts@gold_amounts": {}
+            },
+            {
+                "diamond_amounts@diamond_amounts": {}
+            },
+            {
+                "emerald_amounts@emerald_amounts": {}
+            },
+            {
+                "wool_amounts@wool_amounts": {}
+            },
+            {
+                "firecharge_amounts@firecharge_amounts": {}
+            }
+        ],
+        "layer": 1
+    },
+    "gold_icon": {
+        "type": "image",
+        "texture": "textures/items/gold_ingot",
+        "size": ["30%", "30%"]
+    },
+    "iron_icon": {
+        "type": "image",
+        "texture": "textures/items/iron_ingot",
+        "size": ["30%", "30%"]
+    },
+    "diamond_icon": {
+        "type": "image",
+        "texture": "textures/items/diamond",
+        "size": ["30%", "30%"]
+    },
+    "emerald_icon": {
+        "type": "image",
+        "texture": "textures/items/emerald",
+        "size": ["30%", "30%"]
+    },
+    "wool_icon": {
+        "type": "image",
+        "texture": "textures/blocks/wool_colored_light_blue",
+        "size": ["30%", "30%"]
+    },
+    "firecharge_icon": {
+        "type": "image",
+        "texture": "textures/items/fireball",
+        "size": ["30%", "30%"]
+    },
+    "iron_amounts": {
+        "type": "label",
+	      "text": "Coming Soon...",
+        "size": ["default", "30%"]
+    },
+    "gold_amounts": {
+        "type": "label",
+	      "text": "Coming Soon...",
+        "size": ["default", "30%"]
+    },
+    "diamond_amounts": {
+        "type": "label",
+	      "text": "Coming Soon...",
+        "size": ["default", "30%"]
+    },
+    "emerald_amounts": {
+        "type": "label",
+	      "text": "Coming Soon...",
+        "size": ["default", "30%"]
+    },
+    "wool_amounts": {
+        "type": "label",
+	      "text": "Coming Soon...",
+        "size": ["default", "30%"]
+    },
+    "firecharge_amounts": {
+        "type": "label",
+	      "text": "Coming Soon...",
+        "size": ["default", "30%"]
+    }
+}

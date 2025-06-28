@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "A simple Items Counter for Bedwars/Skywars in Global Resource Pack.",
+        "name": "Bedrock Simple Items Counter HUD",
+        "uuid": "d283f71a-0392-4060-8bed-f49bb1c8aed2",
+        "version": [1, 0, 0]
+    },
+    "modules": [
+        {
+            "description":"§bKLXIER",
+            "type": "resources",
+            "uuid": "b44f8a63-0eb4-46d3-b8d1-1e299f648400",
+            "version": [1, 0, 0]
+        }
+    ]
+}
