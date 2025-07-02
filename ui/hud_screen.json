@@ -48,7 +48,7 @@
         "size": ["20%", "20%"],
         "anchor_from": "bottom_left",
         "anchor_to": "bottom_left",
-        "offset": [30, -52.75],
+        "offset": [30, -55],
         "controls": [
             {
                 "iron_amounts@iron_amounts": {}
@@ -103,32 +103,38 @@
     },
     "iron_amounts": {
         "type": "label",
-	      "text": "Coming Soon...",
+	    "text": "Coming Soon...",
+	    "font_type": "MinecraftTen",
         "size": ["default", "30%"]
     },
     "gold_amounts": {
         "type": "label",
-	      "text": "Coming Soon...",
+	    "text": "Coming Soon...",
+	    "font_type": "MinecraftTen",
         "size": ["default", "30%"]
     },
     "diamond_amounts": {
         "type": "label",
-	      "text": "Coming Soon...",
+	    "text": "Coming Soon...",
+	    "font_type": "MinecraftTen",
         "size": ["default", "30%"]
     },
     "emerald_amounts": {
         "type": "label",
-	      "text": "Coming Soon...",
+	    "text": "Coming Soon...",
+	    "font_type": "MinecraftTen",
         "size": ["default", "30%"]
     },
     "wool_amounts": {
         "type": "label",
-	      "text": "Coming Soon...",
+	    "text": "Coming Soon...",
+	    "font_type": "MinecraftTen",
         "size": ["default", "30%"]
     },
     "firecharge_amounts": {
         "type": "label",
-	      "text": "Coming Soon...",
+	    "text": "Coming Soon...",
+	    "font_type": "MinecraftTen",
         "size": ["default", "30%"]
     }
 }
