@@ -6,16 +6,16 @@
               "operation": "insert_back",
               "value": [
                 {
-                "bwginfo_icons@hud.bwginfo_icons": {}
+                "info_icons@hud.info_icons": {}
                 },
                 {
-                "bwginfo_amounts@hud.bwginfo_amounts": {}
+                "info_amounts@hud.info_amounts": {}
                 }
               ]
             }
         ]
     },
-    "bwginfo_icons": {
+    "info_icons": {
         "type": "stack_panel",
         "size": ["20%", "20%"],
         "anchor_from": "bottom_left",
@@ -43,7 +43,7 @@
         ],
         "layer": 1
     },
-    "bwginfo_amounts": {
+    "info_amounts": {
         "type": "stack_panel",
         "size": ["20%", "20%"],
         "anchor_from": "bottom_left",
